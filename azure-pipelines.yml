@@ -6,8 +6,8 @@
 trigger:
 - 169
 
-pool:local
-  #vmImage: ubuntu-latest
+pool:
+  vmImage: ubuntu-latest
 
 variables:
   buildConfiguration: 'Release'
